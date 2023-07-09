@@ -571,7 +571,7 @@ header
   cursor: pointer;
   display: block;
   position: absolute;
-  top: 33px;
+  top: 23px;
   width: 32px;
   height: 40px;
   text-indent: -9999em;
@@ -740,7 +740,7 @@ header
   .header-area {
     background-color: #f7f7f7;
     padding: 0px 15px;
-    height: 100px;
+    height: 80px;
     box-shadow: none;
     text-align: center;
   }
@@ -843,6 +843,31 @@ header
   .header-area .main-nav .nav li.submenu:focus ul {
     height: 0px;
   }
+
+  .slider-thumb::after{
+    display: none;
+  }
+
+  .slider-thumb::before{
+    width: 100% !important;
+  }
+
+  .about-us .section-heading h2{
+    margin-top: 40px;
+  }
+
+  .our-services{
+    padding-top: 0px !important;
+  }
+
+  .our-services .services-left-dec img{
+    display: none;
+  }
+
+  .main-banner{
+    padding: 175px 0px 130px 0px !important;
+  }
+
 }
 
 @media (min-width: 767px) {

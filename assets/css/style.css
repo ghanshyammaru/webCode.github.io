@@ -844,28 +844,32 @@ header
     height: 0px;
   }
 
-  .slider-thumb::after{
+  .slider-thumb::after {
     display: none;
   }
 
-  .slider-thumb::before{
+  .slider-thumb::before {
     width: 100% !important;
   }
 
-  .about-us .section-heading h2{
+  .about-us .section-heading h2 {
     margin-top: 40px;
   }
 
-  .our-services{
+  .our-services {
     padding-top: 0px !important;
   }
 
-  .our-services .services-left-dec img{
+  .our-services .services-left-dec img {
     display: none;
   }
 
-  .main-banner{
+  .main-banner {
     padding: 175px 0px 130px 0px !important;
+  }
+
+  .about-us .section-heading h2 {
+    margin-top: 0;
   }
 
 }
@@ -1242,18 +1246,18 @@ About
   border-top: 1px solid #eee;
 }
 
-.list_info{
+.list_info {
   display: flex;
   margin-bottom: 10px;
 }
 
-.list_info p{
+.list_info p {
   margin: 0 0 0 10px !important;
-    line-height: 20px;
-    font-size: 15px;
+  line-height: 20px;
+  font-size: 15px;
 }
 
-.section-heading .col-lg-12{
+.section-heading .col-lg-12 {
   margin-bottom: 30px;
 }
 
@@ -1261,24 +1265,24 @@ About
   padding: 0;
 } */
 
-.list_info svg{
+.list_info svg {
   width: 15px;
 }
 
-.list_info svg path{
+.list_info svg path {
   fill: #ed1c24;
 }
 
 /************/
 
-.slider-thumb{
+.slider-thumb {
   position: relative;
 }
 
 .slider-thumb::after {
   content: "";
   width: 536px;
-    height: 463px;
+  height: 463px;
   background: url(https://weblearnbd.net/tphtml/seomy-prv/seomy/assets/img/shape/choose-shape-1.png);
   left: -25px;
   position: absolute;

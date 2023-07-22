@@ -363,6 +363,10 @@ body {
   margin-bottom: -5px;
 }
 
+.contact_box_block{
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
 .section-heading h2 em {
   font-style: normal;
   color: #03a4ed;
@@ -1180,6 +1184,8 @@ header
     font-size: 20px !important;
   }
 
+
+  
   .subscribe .inner-content h2 {
     font-size: 20px;
   }

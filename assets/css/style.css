@@ -258,6 +258,7 @@ body {
   height: 4px;
   width: 4px;
   border-radius: 50px;
+    opacity: 0.5;
 }
 
 .particle-3:after {
